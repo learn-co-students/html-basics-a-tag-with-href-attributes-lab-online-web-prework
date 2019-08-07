@@ -1,4 +1,4 @@
-RSpec.describe "An <a> tag with an 'href' attribute" do
+'RSpec'.describe "An <a> tag with an 'href' attribute" do
 
   it 'contains an <a> tag' do
     a_tag = parsed_html.search('a').first
